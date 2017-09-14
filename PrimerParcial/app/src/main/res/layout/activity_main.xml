@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.duke.primerparcial.MainActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="266dp"
+        android:layout_height="184dp"
+        app:srcCompat="@drawable/manzana"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <TextView
+        android:id="@+id/pt"
+        android:layout_width="106dp"
+        android:layout_height="35dp"
+        android:text="Producto Total"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <TextView
+        android:id="@+id/pa"
+        android:layout_width="106dp"
+        android:layout_height="31dp"
+        android:text="Producto Actual"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="152dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="154dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="97dp"
+        android:layout_height="69dp"
+        app:srcCompat="@drawable/manzanas"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="95dp"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/manzanas"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+5"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+15"
+        tools:layout_editor_absoluteY="288dp"
+        tools:layout_editor_absoluteX="91dp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+30"
+        tools:layout_editor_absoluteY="288dp"
+        tools:layout_editor_absoluteX="183dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+50"
+        tools:layout_editor_absoluteY="288dp"
+        tools:layout_editor_absoluteX="271dp" />
+
+    <TextView
+        android:id="@+id/por"
+        android:layout_width="105dp"
+        android:layout_height="26dp"
+        android:text="Porcentaje"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="257dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        tools:layout_editor_absoluteY="336dp"
+        tools:layout_editor_absoluteX="110dp" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="289dp"
+        android:layout_height="31dp"
+        android:text="Calcular"
+        tools:layout_editor_absoluteY="396dp"
+        tools:layout_editor_absoluteX="48dp" />
+</android.support.constraint.ConstraintLayout>
