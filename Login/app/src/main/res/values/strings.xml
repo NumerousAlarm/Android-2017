@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Coches Nuevos</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="titulo_actividad_detalle">Actividad De Detalle</string>
+    <string name="desarrollador">Ian Alexis Ragel Alvarado</string>
+    <string name="githubPerfil">github.com/NumerousAlarm</string>
+    <string name="closeDialog">Cerrar</string>
+    <string name="perfilBtn">Ver perfil en Github</string>
+    <string name="githubLink">https://github.com/NumerousAlarm</string>
+    <string name="nombre_transicion_imagen">imagen_compartida</string>
+    <string name="deudaBtn">Pagar deuda</string>
+    <string name="titleDeuda">Seleccione su forma de pago</string>
+    <string name="radioDeuda1">Efectivo</string>
+    <string name="radioDeuda2">Tarjeta de Débito o Crédito</string>
+    <string name="radioDeuda3">Cheque</string>
+    <string name="radioDeuda4">Vales de Aurrera</string>
+    <string name="radioDeuda5">Tu Alma</string>
+</resources>
